@@ -25,15 +25,6 @@ elif ba == 'n' or aa == 'N':
     bb = 1
 else:
     print("Invalid Variable!")
-
-# Fixing errors with if statement
-if aa == not 'y' or aa == not 'Y' and aa == not 'n' or aa == not 'N':
-    print("Please make sure you use the following variables: y, n or Y, N | Invalid Variable(s)")
-    ab = 1
-    
-if ba == not 'y' or ba == not 'Y' and ba == not 'n' or ba == not 'N':
-    print("Please make sure you use the following variables: y, n or Y, N | Invalid Variable(s)")
-    bb = 1
     
 ac = math.pow(a, ab)
 bc = math.pow(b, bb)
